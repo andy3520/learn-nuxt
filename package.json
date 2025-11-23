@@ -17,9 +17,10 @@
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.47.0",
-    "nuxt": "^2.14.6"
+    "nuxt": "^4.2.1"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
     "@nuxt/types": "^2.18.1",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config": "^3.1.0",
@@ -37,6 +38,9 @@
     "jest": "^26.5.0",
     "prettier": "^2.8.8",
     "ts-jest": "^26.4.1",
-    "vue-jest": "^3.0.4"
+    "//": "Vue 2 dependencies below are ONLY for legacy test infrastructure. Main app uses Nuxt 4 (Vue 3). Remove after migrating tests to Vue 3.",
+    "vue": "^2.7.16",
+    "vue-jest": "^3.0.4",
+    "vue-template-compiler": "^2.7.16"
   }
 }
