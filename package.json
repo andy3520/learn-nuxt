@@ -36,7 +36,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^3.4.1",
     "jest": "^26.5.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.7.4",
     "ts-jest": "^26.4.1",
     "//": "Vue 2 dependencies below are ONLY for legacy test infrastructure. Main app uses Nuxt 4 (Vue 3). Remove after migrating tests to Vue 3.",
     "vue": "^2.7.16",
